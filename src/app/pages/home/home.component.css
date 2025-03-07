@@ -1,0 +1,221 @@
+
+.sect {
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #1c1f21;
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+.title-bold {
+  font-weight: 700;
+}
+
+.text {
+  width: 100%;
+  max-width: 400px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.cont-hero {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 100px ;
+
+  width: 80%;
+  height: 100vh;
+  background: url('/assets/img/home/hero-bg.jpeg') center no-repeat;
+  background-size: cover;
+}
+
+.cont-img-hero {
+  display: flex;
+  height: 50vh;
+  width: 400px; 
+  overflow: hidden; 
+}
+
+.img-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-hero {
+  margin-left: 40px;
+  text-align: center;
+  max-width: 275px;
+  background-color: var(--main-color);
+  color: #f8f7f6;
+  padding: 12px 20px;
+  font-size: 26px;
+  outline: none;
+  border: 1px solid var(--main-color);
+  border-radius: 100px;
+  font-weight: 700;
+
+  transition: .3s;
+}
+
+.btn-hero:hover {
+  background-color: var(--main-dark-color);
+  border: 1px solid var(--light-color);
+}
+
+.svg-hero {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(0, -50%);
+  bottom: 20px;
+
+  width: 30px;
+
+  opacity: 0;
+  animation: infinite 2s pop;
+}
+
+.svg-hero path {
+  fill: var(--main-color);
+}
+
+/* ================= IMG | Second section ================= */
+.img-bg {
+  background: url('/assets/img/home/IMG_3828.jpg') center no-repeat;
+  background-size: cover; 
+}
+
+/* ================= EQUIPMENTS | Third section ================= */
+.equipments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  padding: 0 100px;
+
+}
+
+.equipments .title {
+  max-width: 500px;
+}
+
+.img-equip {
+  width: 50vw;
+  background: url('/assets/img/home/IMG_3780.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* ================= Three Photos | Fourth section ================= */
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 100px;
+}
+
+.photo-1, .photo-2, .photo-3 {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+
+}
+
+.photo-1 {
+  background: url('/assets/img/home/IMG_3808.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photo-2 {
+  background: url('/assets/img/home/IMG_3841.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photo-3 {
+  background: url('/assets/img/home/IMG_3844.jpg') center no-repeat;
+  background-size: cover;
+}
+
+/* ================= Spaces | Fifth section ================= */
+.spaces .text {
+  margin-bottom: 24px;
+}
+
+.img-space {
+  width: 50vw;
+  background: url('/assets/img/home/IMG_3832.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* ================= Three Photos | Sixth section ================= */
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 100px;
+}
+
+.photo-1, .photo-2, .photo-3, .photo-4, .photo-5, .photo-6 {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+
+}
+
+.photo-4 {
+  background: url('/assets/img/home/IMG_3836.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photo-5 {
+  background: url('/assets/img/home/IMG_3841.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photo-6 {
+  background: url('/assets/img/home/IMG_3770.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.services .text {
+  margin-bottom: 12px;
+}
+
+.img-serv {
+  width: 50vw;
+  background: url('/assets/img/home/IMG_3773.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
