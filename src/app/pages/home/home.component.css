@@ -208,6 +208,33 @@
   height: 100vh;
 }
 
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.last .title {
+  margin: 0px;
+  font-size: 52px;
+}
+
+.text-last {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.last .btn-hero {
+  margin: 50px 0px;
+}
+
+.last {
+  background: url('/assets/img/home/end-hero.png') center no-repeat;
+  background-size: cover;
+}
+
+
 @keyframes pop {
   0% {
     opacity: 0;
