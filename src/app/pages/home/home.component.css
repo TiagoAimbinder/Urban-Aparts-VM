@@ -35,14 +35,14 @@
 
   width: 80%;
   height: 100vh;
-  background: url('/assets/img/home/hero-bg.jpeg') center no-repeat;
+  background: url('/assets/img/home/hero-bg.webp') center no-repeat;
   background-size: cover;
 }
 
 .cont-img-hero {
   display: flex;
   height: 50vh;
-  width: 400px; 
+  /* width: 400px;  */
   overflow: hidden; 
 }
 
@@ -92,7 +92,7 @@
 
 /* ================= IMG | Second section ================= */
 .img-bg {
-  background: url('/assets/img/home/IMG_3828.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3828.webp') center no-repeat;
   background-size: cover; 
 }
 
@@ -118,7 +118,7 @@
 
 .img-equip {
   width: 50vw;
-  background: url('/assets/img/home/IMG_3780.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3780.webp') center no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -140,17 +140,17 @@
 }
 
 .photo-1 {
-  background: url('/assets/img/home/IMG_3808.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3808.webp') center no-repeat;
   background-size: cover;
 }
 
 .photo-2 {
-  background: url('/assets/img/home/IMG_3841.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3841.webp') center no-repeat;
   background-size: cover;
 }
 
 .photo-3 {
-  background: url('/assets/img/home/IMG_3844.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3844.webp') center no-repeat;
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@
 
 .img-space {
   width: 50vw;
-  background: url('/assets/img/home/IMG_3832.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3832.webp') center no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -183,17 +183,17 @@
 }
 
 .photo-4 {
-  background: url('/assets/img/home/IMG_3836.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3836.webp') center no-repeat;
   background-size: cover;
 }
 
 .photo-5 {
-  background: url('/assets/img/home/IMG_3841.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3841.webp') center no-repeat;
   background-size: cover;
 }
 
 .photo-6 {
-  background: url('/assets/img/home/IMG_3770.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3770.webp') center no-repeat;
   background-size: cover;
 }
 
@@ -203,7 +203,7 @@
 
 .img-serv {
   width: 50vw;
-  background: url('/assets/img/home/IMG_3773.jpg') center no-repeat;
+  background: url('/assets/img/home/IMG_3773.webp') center no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -230,7 +230,7 @@
 }
 
 .last {
-  background: url('/assets/img/home/end-hero.png') center no-repeat;
+  background: url('/assets/img/home/end-hero.webp') center no-repeat;
   background-size: cover;
 }
 
@@ -244,5 +244,52 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+
+@media (width <= 768px) {
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont-hero {
+    width: 100%;
+    padding: 60px 30px;
+  }
+
+  .btn-hero {
+    margin: 0;
+  }
+
+  .cont-imgs {
+    display: flex;
+    height: auto;
+  }
+
+  .equipments {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont-text {
+    padding: 60px 30px;
+    width: auto;
+  }
+
+  .img-equip {
+    width: auto;
+  }
+
+  .photos {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+  }
+
+  .img-space, .img-serv {
+    width: auto;
   }
 }
